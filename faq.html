@@ -10,11 +10,11 @@
 </head>
 
 <body>
-  <!--Navbar-->
+<!--Navbar-->
 <!--https://getbootstrap.com/docs/4.5/components/navbar/-->
- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom border-bottom">
      <a class="navbar-brand" href="index.html">
-        <img class="nav-logo" src="images/cutecakeslogowht.png"></img>
+        <img class="nav-logo" src="images/branding/cutecakeslogowht.png"></img>
      </a>
      <ul class="navbar-nav ml-auto">
          <li class="nav-item">
@@ -26,8 +26,8 @@
          <li class="nav-item">
              <a class="nav-link" href="gallery.html">Gallery</a>
          </li>
-         <li class="nav-item active">
-             <a class="nav-link" href="faq.html">FAQ</a>
+         <li class="nav-item">
+             <a class="nav-link active" href="faq.html">FAQ</a>
          </li>
          <li class="nav-item">
              <a class="nav-link" href="calendar.html">Calendar</a>
@@ -36,10 +36,54 @@
              <a class="nav-link" href="contact.html">Contact</a>
          </li>     
      </ul>
- </nav>  
+    </nav>
+    <div class="faq-pg">
+        <div class="row">
+            <div class="col">
+                <img class="logo-body" src="images/branding/cutecakeslogo.png"></img>
+            </div>
+            <div class="col">
+                <div class="faq">
+                    <h1>
+                        Frequently Asked Questions
+                    </h1>
+                </div>
+                <div class="body body-faq">
+                    <h2>
+                        Q) How much is a cake? 
+                    </h2>
+                    <p>There are no set prices on cakes outside of seasonal offerings (ie. Christmas, Valentine's Days), as the price
+                    varies greatly from cake to cake depending on ingredients, people to feed and detail.
+                    Consultations allow me to offer a variety of options catered to your wants and budget.</p>
+                    <h2>
+                        Q) How do I place an order?
+                    </h2>
+                    <p>Simply use the "Contact" section of the website to send me an email and I will contact you to discuss your ideas. 
+                    While seasonal offerings are on you can use this feature to book directly. On both occasions please be mindful of the "Calander"
+                    feature on the website. When it indicates I am "fully booked", I am truly fully booked and cannot facilitate an order at this time.</p>
+                    <h2>
+                        Q) How far in advance should I book?
+                    </h2>
+                    <p>I would recommend contacting me no later than 1 month in advance for smaller cakes, as there is limited
+                    availabilty and spaces tend to fill up fast. For larger cakes, I would recommend contacting me as soon as possible to
+                    avoid disappoinement.</p>
+                    <h2>Q) Is delivery available?</h2>
+                    <p>Delivery is available on a case by case basis, if I can facilitate it I can deliver straight to your door. 
+                    I am a one woman operation so occasionally I may not have the time, but where I can I will provide free delivery
+                    to your door/venue.</p>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>     
 </body>
 
-<footer class="footer">
+<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
+<footer class="footer border-top">
 <!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
 <!--Could not get text to go fully left-->
      <div class="container pull-left">
@@ -49,16 +93,15 @@
        <ul>
             <li class="social-links">
                 <a target="_blank" href="http://facebook.com/CuteCakesbyBronagh">
-                    <i class="fa fa-facebook fa-lg"></i>
+                    <i class="fa fa-footer fa-facebook fa-lg"></i>
                 </a>
             </li>
             <li class="social-links">
                 <a target="_blank" href="http://instagram.com/cutecakesbybronagh">
-                    <i class="fa fa-instagram fa-lg"></i>
+                    <i class="fa fa-footer fa-instagram fa-lg"></i>
                 </a>
             </li>
        </ul>
     </div>
-</footer>
-
+</footer>  
 </html>

@@ -90,6 +90,42 @@ h2 {
 .body-menu p {
  padding-left: 90px;
 }
+
+/*------------------------------------Body-Gallery------------------------------------*/
+
+.gallery-head {
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 30px;
+ padding-right: 200px;
+}
+.carousel-container {
+ width: 300px;
+ height: 300px;
+}
+
+.fa-logo {
+ color: #fad1d9;
+ padding-top: 200px;
+}
+
+.insta-p {
+ font-family: "Lora", sans-serif;
+ color: #545454;
+ padding-top: 195px;
+ padding-left: 10px;
+}
+
+.fa-laptop {
+ color: #fad1d9;
+}
+
+.contact-p {
+ font-family: "Lora", sans-serif;
+ color: #545454;
+ padding-left: 8px;
+}
+
 /*------------------------------------Footer------------------------------------*/
 
 .footer {
@@ -114,7 +150,7 @@ h2 {
  margin-right: 15px;
 }
 
-.fa { 
+.fa-footer { 
  margin-top: 15px;
  color: #ffffff;
 }
