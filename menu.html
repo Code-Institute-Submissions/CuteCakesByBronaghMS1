@@ -9,11 +9,10 @@
     <title>Cute Cakes by Bronagh</title>
 </head>
 
-
 <body>
 <!--Navbar-->
 <!--https://getbootstrap.com/docs/4.5/components/navbar/-->
- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom border-bottom">
      <a class="navbar-brand" href="index.html">
         <img class="nav-logo" src="images/cutecakeslogowht.png"></img>
      </a>
@@ -37,16 +36,44 @@
              <a class="nav-link" href="contact.html">Contact</a>
          </li>     
      </ul>
- </nav> 
-
-    <div class="container">
+    </nav>
+    <div class="menu-pg">
         <div class="row">
-            <img src="images/cutecakeslogo.png"></img>
+            <div class="col">
+                <img class="logo-body" src="images/cutecakeslogo.png"></img>
+            </div>
+            <div class="col">
+                <div class="menu">
+                    <h1>
+                        Menu
+                    </h1>
+                </div>
+                <div class="body body-menu">
+                    <h2>
+                        Sponges
+                    </h2>
+                    <p>Vanilla, Chocolate, Chocolate Fudge, Chocolate Orange, Carrot, Lemon, Coffee, Raspberry & White Chocolate.</p>
+                    <h2>
+                        Fillings & Buttercreams
+                    </h2>
+                    <p>Vanilla, Chocolate, Chocolate Fudge, Chocolate Orange, Peanut Butter Chocolate, Lemon, Coffee, Salted Caramel.</p>
+                    <h2>
+                        Biscuit Cakes
+                    </h2>
+                    <p>Plain Chocolate Biscuit, Baileys Chocolate Biscuit.</p>
+                    <h2> Decoration</h2>
+                    <p> Buttercream piping, Modelling chocolate Figurines, Fondant Icing Coverings and Figurines.</p>
+                </div>
+            </div>
+            <div class="col">
+            </div>
         </div>
     </div>
+        
 </body>
 
- <footer class="footer">
+<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
+<footer class="footer border-top">
 <!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
 <!--Could not get text to go fully left-->
      <div class="container pull-left">
@@ -66,5 +93,5 @@
             </li>
        </ul>
     </div>
-</footer>
+</footer>  
 </html>

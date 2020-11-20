@@ -25,6 +25,25 @@
 }
 
 /*------------------------------------Body-Home------------------------------------*/
+.logo-body {
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 60px;
+}
+
+.hm-txt {
+ padding-left: 60px;
+ font-family: "Lora", sans-serif;
+ color: #545454;
+}
+
+.hm-link {
+ color: #545454;
+}
+
+.map {
+ padding-left: 60px;
+}
 
 h1 {
  font-family: "Rajdhani", sans-serif;
@@ -33,10 +52,44 @@ h1 {
 }
 
 .about {
- text-align: center;
- 
+ padding-top: 100px;
+ padding-bottom: 10px;
 }
 
+.body{
+ font-family: "Lora", sans-serif;
+ color: #545454;
+}
+
+.reviews {
+ font-family: "Lora", sans-serif;
+ color: #545454;
+ padding-top: 100px;
+ padding-bottom: 10px;
+}
+
+.reviews p {
+ padding-top: 10px;
+}
+
+/*------------------------------------Body-Menu------------------------------------*/
+
+.menu {
+ text-align: center;
+ padding-top: 100px;
+ padding-bottom: 10px;
+}
+
+h2 {
+ font-family: "Rajdhani", sans-serif;
+ color: #fad1d9;
+ text-align: left;
+ font-size: 20px;
+}
+
+.body-menu p {
+ padding-left: 90px;
+}
 /*------------------------------------Footer------------------------------------*/
 
 .footer {
