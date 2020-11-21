@@ -12,7 +12,9 @@
 <body>
 <!--Navbar-->
 <!--https://getbootstrap.com/docs/4.5/components/navbar/-->
- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+<!--Navbar-->
+<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom border-bottom">
      <a class="navbar-brand" href="index.html">
         <img class="nav-logo" src="images/branding/cutecakeslogowht.png"></img>
      </a>
@@ -29,21 +31,37 @@
          <li class="nav-item">
              <a class="nav-link" href="faq.html">FAQ</a>
          </li>
-         <li class="nav-item active">
-             <a class="nav-link" href="calendar.html">Calendar</a>
+         <li class="nav-item">
+             <a class="nav-link active" href="calendar.html">Calendar</a>
          </li>
          <li class="nav-item">
              <a class="nav-link" href="contact.html">Contact</a>
          </li>     
      </ul>
- </nav> 
+    </nav>
 
+    <div class="calendar-pg">
+        <div class="row">
+            <div class="col">
+                <img class="logo-body" src="images/branding/cutecakeslogo.png"></img>
+            </div>
+            <div class="col">
+                <div class="calendar">
+<!--https://www.youtube.com/watch?v=vksO63XQQ3w&ab_channel=WordPressTutorials-WPLearningLab-->
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23fad1d9&amp;ctz=Europe%2FDublin&amp;src=Y3V0ZWNha2VzYnliMjAyMEBnbWFpbC5jb20&amp;src=ZW4uaXJpc2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="650" height="500" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
-<footer class="footer">
+<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
+<footer class="footer sticky-bottom border-top">
 <!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
 <!--Could not get text to go fully left-->
      <div class="container pull-left">

@@ -2,13 +2,25 @@
 /*------------------------------------Navbar------------------------------------*/
 
 .navbar-custom {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
  height: 50px;
  background-color: #fad1d9;
 }
 
-.nav-logo {
- height: 40px;
- width: 70px;
+/*https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively when editing the faq I could not view all the content from 
+the body so I began to edit the css to position the text. I noticed the nav bar didn't go to the edge of the page when scrolled to the right.
+I fixed this problem with css, comparing it to the footer, but once this issue was resolved the brand no longer sat in the navbar.
+The below code fixed the issue. It also moved the brand logo on all pages to be overlapped by the nav bar and it moved the gallery and faq headings
+to be flush with the nav bar, this was rectified with css*/
+
+.navbar .navbar-brand {
+  padding-top: 5px;
+}
+.navbar .navbar-brand img {
+  height: 40px;
 }
 
 .navbar-nav {
@@ -27,7 +39,7 @@
 /*------------------------------------Body-Home------------------------------------*/
 .logo-body {
  padding-left: 20px;
- padding-top: 20px;
+ padding-top: 70px;
  padding-bottom: 60px;
 }
 
@@ -59,6 +71,7 @@ h1 {
 .body{
  font-family: "Lora", sans-serif;
  color: #545454;
+ margin: 10px;
 }
 
 .reviews {
@@ -95,7 +108,7 @@ h2 {
 
 .gallery-head {
  text-align: center;
- padding-top: 50px;
+ padding-top: 90px;
  padding-bottom: 30px;
  padding-right: 200px;
 }
@@ -124,6 +137,41 @@ h2 {
  font-family: "Lora", sans-serif;
  color: #545454;
  padding-left: 8px;
+}
+
+.fa-copyright {
+ color: #fad1d9;
+ padding-left: 4px;
+ padding-top: 5px;
+}
+
+.copy-p {
+ font-family: "Lora", sans-serif;
+ color: #545454;
+ padding-left: 13px;
+}
+
+/*------------------------------------Body-FAQ------------------------------------*/
+
+.faq {
+ padding-top: 100px;
+ padding-bottom: 20px;
+ padding-left: 7px;
+}
+
+.body-faq {
+ padding-bottom: 70px;
+}
+
+/*------------------------------------Body-Calendar------------------------------------*/
+
+.calendar {
+ padding-top: 100px;
+}
+
+#nav1 {
+ color: #fad1d9;
+ height: 40px;
 }
 
 /*------------------------------------Footer------------------------------------*/
