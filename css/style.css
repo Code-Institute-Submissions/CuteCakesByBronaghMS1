@@ -59,6 +59,9 @@ to be flush with the nav bar, this was rectified with css*/
  padding-left: 20px;
 }
 
+.reviews {
+ padding-top: -10px;
+}
 
 /*------------------------------------Menu------------------------------------*/
 
