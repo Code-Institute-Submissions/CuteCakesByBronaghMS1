@@ -75,35 +75,14 @@ to be flush with the nav bar, this was rectified with css*/
 
 /*------------------------------------Gallery------------------------------------*/
 
-.gallery {
- padding-bottom: 20px;
-}
-
 .fa-lg {
  color: #fad1d9;
 }
 
-.g-info {
- padding-top: 220px;
- padding-left: 30px;
-}
-
-.gallery-p {
+.gallery-text {
  text-align: left;
+ padding-top: 200px;
 }
-
-.fa-insta {
- padding-left: 10px;
-}
-
-.fa-contact {
- padding-left: 10px;
-}
-
-.fa-copy {
- padding-left: 10px;
-}
-
 /*------------------------------------FAQ------------------------------------*/
 
 .faq{
