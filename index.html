@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -10,50 +11,52 @@
 </head>
 
 <body>
-<!--Navbar-->
-<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom border-bottom">
-     <a class="navbar-brand" href="index.html">
-        <img class="nav-logo" src="images/branding/cutecakeslogowht.png"></img>
-     </a>
-     <ul class="navbar-nav ml-auto">
-         <li class="nav-item">
-             <a class="nav-link active" href="index.html">Home</a>
-         </li>
-         <li class="nav-item">
-             <a class="nav-link" href="menu.html">Menu</a>
-         </li>
-         <li class="nav-item">
-             <a class="nav-link" href="gallery.html">Gallery</a>
-         </li>
-         <li class="nav-item">
-             <a class="nav-link" href="faq.html">FAQ</a>
-         </li>
-         <li class="nav-item">
-             <a class="nav-link" href="calendar.html">Calendar</a>
-         </li>
-         <li class="nav-item">
-             <a class="nav-link" href="contact.html">Contact</a>
-         </li>     
-     </ul>
-    </nav>
 
-    <div class="home">
-        <div class="row">
-            <div class="col">
-                <img class="logo-body" src="images/branding/cutecakeslogo.png"></img>
-                <p class="hm-txt">Based in Celbrige, Kildare.</p>
-                <p class="hm-txt">Please contact via <a class="hm-link" href="contact.html"><u>website.</u></a></p>
+    <header>
+<!--Navbar-->
+<!--https://getbootstrap.com/docs/4.0/utilities/display/-->
+<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom border-bottom">
+            <a class="navbar-brand" href="index.html">
+                <img class="nav-logo d-none d-lg-block" src="images/branding/cutecakeslogowht.png"></img>
+            </a>
+            <ul class="navbar-nav navbar-collapse-sm navbar-expand-lg ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calendar.html">Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>     
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+<!--https://getbootstrap.com/docs/4.0/layout/grid/-->
+        <div class="container-fluid">
+            <div class="row">
+<!--https://getbootstrap.com/docs/4.0/utilities/flex/-->
+                <div class="col-sm p-5 logo">
+                    <img src="images/branding/cutecakeslogo.png"></img>
+                    <p>Based in Celbrige, Kildare.</p>
+                    <p>Please contact via <a class="link" href="contact.html"><u>website.</u></a></p>
 <!--https://www.youtube.com/watch?v=KIC0OK9nKXY&ab_channel=GeekTutorials-->
-                <p><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1038.4095612558226!2d-6.552978601113971!3d53.354281211587285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486770491306b739%3A0xeb69455449ef8d64!2sMooretown%20Dr%2C%20Co.%20Kildare!5e0!3m2!1sen!2sie!4v1605878034670!5m2!1sen!2sie" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
-            </div>
-            <div class="col">
-                <div class="about">
-                    <h1>
-                        About
-                    </h1>
+                    <p><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1038.4095612558226!2d-6.552978601113971!3d53.354281211587285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486770491306b739%3A0xeb69455449ef8d64!2sMooretown%20Dr%2C%20Co.%20Kildare!5e0!3m2!1sen!2sie!4v1605878034670!5m2!1sen!2sie" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
                 </div>
-                <div class="body">
+                <div class="col-sm col-lg-4 p-5">
+                    <h1>About</h1>
                     <p>Bronagh started cake decorating when she was 16, 
                     helping her Mom decorate their Christmas cake every year. </p>
                     <p>When family and friends saw the cakes they asked her to make them their own cakes
@@ -64,50 +67,47 @@
                     <p>Bronagh prides herself in creating beautiful cakes suited exactly to your requirements, 
                     for any occasion, using only the best quality ingredients.</p>
                 </div>
-            </div>
-            <div class="col about reviews">
-                <h1>
-                    Reviews
-                </h1>
-                <p>Absolutely beautiful cake. It was even better than I could of imagined 
-                and my sister didn't even want to cut into it, because it looked so good. 
-                We got orange chocolate and raspberry white choc and it went down a treat. 
-                Thank you so much Bronagh I will definitely be in touch for the next party. - Danielle Gregg</p>
-                <p>Thank you Bronagh for the recent choc biscuit cake you made for Robyn's Christening 
-                and delivered to my door. It was a perfect match to my Pinterest sourced inspiration and 
-                tasted delicious! You were a pleasure to deal with making it hassle free. I highly recommend 
-                Bronagh for any cake needs you have. - Michelle Mc Donagh </p>
-                <p>Amazing cake, so talented and so delish 😊 Will definitely order again! x
-                -Jade Walker</p>
-
+                <div class="col-sm col-lg-4 p-5">
+                    <h1>Reviews</h1>
+                    <p>Absolutely beautiful cake. It was even better than I could of imagined 
+                    and my sister didn't even want to cut into it, because it looked so good. 
+                    We got orange chocolate and raspberry white choc and it went down a treat.                         Thank you so much Bronagh I will definitely be in touch for the next party. - Danielle Gregg</p>
+                    <p>Thank you Bronagh for the recent choc biscuit cake you made for Robyn's Christening 
+                    and delivered to my door. It was a perfect match to my Pinterest sourced inspiration and 
+                    tasted delicious! You were a pleasure to deal with making it hassle free. I highly recommend 
+                    Bronagh for any cake needs you have. - Michelle Mc Donagh </p>
+                    <p>Amazing cake, so talented and so delish 😊 Will definitely order again! x
+                    -Jade Walker</p>
+                </div>
             </div>
         </div>
-    </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>     
-</body>
-
+    </section>
+    <footer class="footer sticky-bottom border-top">
 <!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
-<footer class="footer sticky-bottom border-top">
 <!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
 <!--Could not get text to go fully left-->
-     <div class="container pull-left">
-        <p class="copyright">Copyright 2020 Lorna Clarke</p>
-    </div>
-    <div class="social pull-right">
-       <ul>
-            <li class="social-links">
-                <a target="_blank" href="http://facebook.com/CuteCakesbyBronagh">
-                    <i class="fa fa-footer fa-facebook fa-lg"></i>
-                </a>
-            </li>
-            <li class="social-links">
-                <a target="_blank" href="http://instagram.com/cutecakesbybronagh">
-                    <i class="fa fa-footer fa-instagram fa-lg"></i>
-                </a>
-            </li>
-       </ul>
-    </div>
-</footer>  
+        <div class="copy pull-left">
+            <p class="copy">Copyright 2020 Lorna Clarke</p>
+        </div>
+        <div class="pull-right">
+            <ul>
+                <li class="social">
+                    <a target="_blank" href="http://facebook.com/CuteCakesbyBronagh">
+                        <i class="fa fa-footer fa-facebook fa-lg"></i>
+                    </a>
+                </li>
+                <li class="social">
+                    <a target="_blank" href="http://instagram.com/cutecakesbybronagh">
+                        <i class="fa fa-footer fa-instagram fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    
+</body>
 </html>

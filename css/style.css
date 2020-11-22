@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Rajdhani&display=swap');
+
+/*------------------------------------Styling------------------------------------*/
+
+h1 {
+ font-family: "Rajdhani", sans-serif;
+ color: #fad1d9;
+ padding-top: 100px;
+ text-align: center;
+}
+
+h2 {
+ font-family: "Rajdhani", sans-serif;
+ color: #fad1d9;
+ text-align: left;
+ font-size: 20px;
+}
+
+p {
+ font-family: "Lora", sans-serif;
+ color: #545454;
+}
+
+
 /*------------------------------------Navbar------------------------------------*/
 
-.navbar-custom {
+.navbar {
  position: fixed;
  left: 0;
  bottom: 0;
  width: 100%;
  height: 50px;
  background-color: #fad1d9;
+ font-family: "Rajdhani", sans-serif;
+ font-size: 25px;
+ color: #ffffff;
 }
 
 /*https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively when editing the faq I could not view all the content from 
@@ -23,156 +49,93 @@ to be flush with the nav bar, this was rectified with css*/
   height: 40px;
 }
 
-.navbar-nav {
- font-family: "Rajdhani", sans-serif;
- font-size: 25px;
- color: #ffffff;
-}
+/*------------------------------------Home------------------------------------*/
 
-.intro {
- padding-top: 15px;
- padding-left: 250px;
- font-family: "Lora", sans-serif;
- color: #545454;
-}
-
-/*------------------------------------Body-Home------------------------------------*/
-.logo-body {
- padding-left: 20px;
- padding-top: 70px;
- padding-bottom: 60px;
-}
-
-.hm-txt {
- padding-left: 60px;
- font-family: "Lora", sans-serif;
- color: #545454;
-}
-
-.hm-link {
- color: #545454;
-}
-
-.map {
- padding-left: 60px;
-}
-
-h1 {
- font-family: "Rajdhani", sans-serif;
- font-size: 40px;
- color: #fad1d9;
-}
-
-.about {
- padding-top: 100px;
- padding-bottom: 10px;
-}
-
-.body{
- font-family: "Lora", sans-serif;
- color: #545454;
- margin: 10px;
-}
-
-.reviews {
- font-family: "Lora", sans-serif;
- color: #545454;
- padding-top: 100px;
- padding-bottom: 10px;
+.link {
+  color: #545454
 }
 
 .reviews p {
- padding-top: 10px;
+ padding-left: 20px;
 }
 
-/*------------------------------------Body-Menu------------------------------------*/
+
+/*------------------------------------Menu------------------------------------*/
 
 .menu {
- text-align: center;
- padding-top: 100px;
  padding-bottom: 10px;
 }
 
-h2 {
- font-family: "Rajdhani", sans-serif;
+.map {
+ padding-top: 20px;
+}
+
+/*------------------------------------Gallery------------------------------------*/
+
+.gallery {
+ padding-bottom: 20px;
+}
+
+.fa-lg {
  color: #fad1d9;
+}
+
+.g-info {
+ padding-top: 220px;
+ padding-left: 30px;
+}
+
+.gallery-p {
  text-align: left;
- font-size: 20px;
 }
 
-.body-menu p {
- padding-left: 90px;
-}
-
-/*------------------------------------Body-Gallery------------------------------------*/
-
-.gallery-head {
- text-align: center;
- padding-top: 90px;
- padding-bottom: 30px;
- padding-right: 200px;
-}
-.carousel-container {
- width: 300px;
- height: 300px;
-}
-
-.fa-logo {
- color: #fad1d9;
- padding-top: 200px;
-}
-
-.insta-p {
- font-family: "Lora", sans-serif;
- color: #545454;
- padding-top: 195px;
+.fa-insta {
  padding-left: 10px;
 }
 
-.fa-laptop {
- color: #fad1d9;
+.fa-contact {
+ padding-left: 10px;
 }
 
-.contact-p {
- font-family: "Lora", sans-serif;
- color: #545454;
- padding-left: 8px;
+.fa-copy {
+ padding-left: 10px;
 }
 
-.fa-copyright {
- color: #fad1d9;
- padding-left: 4px;
- padding-top: 5px;
+/*------------------------------------FAQ------------------------------------*/
+
+.faq{
+ padding-bottom: 50px;
 }
 
-.copy-p {
- font-family: "Lora", sans-serif;
- color: #545454;
- padding-left: 13px;
+.faq-para {
+ padding-top: 212px;
 }
 
-/*------------------------------------Body-FAQ------------------------------------*/
 
-.faq {
- padding-top: 100px;
- padding-bottom: 20px;
- padding-left: 7px;
+/*------------------------------------Calendar------------------------------------*/
+
+.can-title {
+ padding-left: 252px;
 }
-
-.body-faq {
- padding-bottom: 70px;
-}
-
-/*------------------------------------Body-Calendar------------------------------------*/
 
 .calendar {
- padding-top: 100px;
+ height: 300px;
+ width: 300px;
 }
 
-#nav1 {
- color: #fad1d9;
- height: 40px;
+/*------------------------------------Calendar------------------------------------*/
+
+.button {
+ background-color: #fad1d9;
+ color: #ffffff;
+ font-family: "Rajdhani", sans-serif;
+ border-color: #a6a6a6;
+ border-radius: 5px;
 }
+
+.button-p {
+ text-align: center;
+} 
 
 /*------------------------------------Footer------------------------------------*/
 
@@ -185,20 +148,33 @@ h2 {
  background-color: #fad1d9;
 }
 
-.copyright {
- margin-top: 15px;
+.copy {
  color: #ffffff;
- text-align: left;
- padding-left: 0px;
+ margin-top: 7px;
+ padding-left: 20px;
  font-family: "Rajdhani", sans-serif;
 }
 
-.social-links {
+.social {
  display: inline;
- margin-right: 15px;
 }
 
 .fa-footer { 
  margin-top: 15px;
  color: #ffffff;
+}
+
+.fa-instagram {
+ padding-right: 40px;
+}
+
+.fa-facebook {
+ padding-right: 20px;
+}
+
+/*----------------------------------------Mobile-----------------------------------*/
+
+.col-sm-1 {
+ text-align: left;
+}
 }
