@@ -49,6 +49,12 @@ to be flush with the nav bar, this was rectified with css*/
   height: 40px;
 }
 
+#collapse_target {
+ background-color: #fad1d9;
+ color: #fff;
+ font-family: "Rajdhani", sans-serif;
+ padding-left: 20px;
+}
 /*------------------------------------Home------------------------------------*/
 
 .link {
@@ -96,8 +102,8 @@ to be flush with the nav bar, this was rectified with css*/
 }
 
 .calendar {
- height: 300px;
- width: 300px;
+ height: 50%px;
+ width: 90%px;
 }
 
 /*------------------------------------Calendar------------------------------------*/
