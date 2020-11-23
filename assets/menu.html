@@ -6,20 +6,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Cute Cakes by Bronagh</title>
 </head>
 
 <body>
 
     <header>
-
 <!--Navbar-->
+
         <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom">
 <!--Navbar Brand-->
-<!--https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively-->
             <a class="navbar-brand" href="index.html">
-                <img class="nav-logo d-none d-lg-block" src="images/branding/cutecakeslogowht.png"></img>
+                <img class="nav-logo d-none d-lg-block" src="assets/images/branding/cutecakeslogowht.png"></img>
             </a>
 <!--Dropdown Button-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -33,13 +32,13 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link active" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="calendar.html">Calendar</a>
@@ -58,49 +57,35 @@
         <div class="container">
             <div class="row">
 <!--Main Branding-->
-                <div class="col-xs col-lg-4 p-5">
-                    <img src="images/branding/cutecakeslogo.png"></img>
+                <div class="col-xs col-lg-4 p-5 logo">
+                    <img src="assets/images/branding/cutecakeslogo.png"></img>
                 </div>
-<!--Frequently Asked Questions-->
-                    <div class="col-xs col-lg-4 p-5 faq">
-                        <div class="faq-content-1">
-                            <h1 style="padding-top:5px;">Frequently Asked Questions</h1>
-                            <h2>Q) What do the cakes cost?</h2>
-                            <p>There are no set prices on cakes outside of seasonal offerings (ie. Christmas, Valentine's Days), as the price
-                            varies greatly from cake to cake depending on ingredients, people to feed and detail.
-                            Consultations allow me to offer a variety of options catered to your wants and budget.</p>
-                            <h2>Q) How do I place an order?</h2>
-                            <p>Simply use the "Contact" section of the website to send me an email and I will contact you to discuss your ideas. 
-                            While seasonal offerings are on you can use this feature to book directly. On both occasions please be mindful of the "Calander"
-                            feature on the website. When it indicates I am "fully booked", I am truly fully booked and cannot facilitate an order at this time.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs col-lg-4 p-5 faq-para">
-                        <div class="faq-content-2">
-                            <h2>Q) How far in advance should I book?</h2>
-                            <p>I would recommend contacting me no later than one month in advance for smaller cakes, as there is limited
-                            availabilty and spaces tend to fill up fast. For larger cakes, I would recommend contacting me as soon as possible so that I can 
-                            start work on your design and book you in to avoid disappointment.</p>
-                            <h2>Q) Is delivery available?</h2>
-                            <p>Delivery is available on a case by case basis, if I can facilitate it I can deliver straight to your door. 
-                            I am a one woman operation so occasionally I may not have the time, but where I can I will provide free delivery
-                            to your door/venue.</p>
-                        </div>
-                    </div>
+<!--Menu-->
+                <div class="col-xs col-lg-4 p-5">
+                    <h1 class="menu">Menu</h1>
+                    <h2>Sponges</h2>
+                    <p>Vanilla, Chocolate, Chocolate Fudge, Chocolate Orange, Carrot, Lemon, Coffee, Raspberry & White Chocolate.</p>
+                    <h2>Fillings & Buttercream</h2>
+                    <p>Vanilla, Chocolate, Chocolate Fudge, Chocolate Orange, Peanut Butter Chocolate, Lemon, Coffee, Salted Caramel.</p>
+                    <h2>Biscuit Cakes</h2>
+                    <p>Plain Chocolate Biscuit, Baileys Chocolate Biscuit.</p>
+                    <h2> Decoration</h2>
+                    <p> Buttercream piping, Modelling chocolate Figurines, Fondant Icing Coverings and Figurines.</p>
+                </div>
+                <div class="col-xs col-lg-4">
                 </div>
             </div>
         </div>
     </section>
 
 <!--Footer-->
-
     <footer class="footer sticky-bottom">
 <!--Copyright-->
         <div class="copy pull-left">
             <p class="copy">Copyright 2020 Lorna Clarke</p>
         </div>
-        <div class="pull-right">
 <!--Social Media-->
+        <div class="pull-right">
             <ul>
                 <li class="social">
                     <a target="_blank" href="http://facebook.com/CuteCakesbyBronagh">
@@ -116,7 +101,6 @@
         </div>
 
     </footer>
-    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
