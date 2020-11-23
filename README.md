@@ -77,6 +77,59 @@ she has gathered enough repeat custom that within her schedule that she is alway
  the opening page information, looking at work, perusing the menu, answering general queries, seeing if there is availability at the time of the event, 
  making contact. I hope to create a site that not only showcases the products but is intuitive for any potential customer/collaborator to use.    
 
-*wireframe*    
+*Wireframe*    
 
-![wireframe](https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/4a97acfdea172e19db93b4e71417de009828eb96/wireframe/CCBBWireframe.png)
+![wireframe](https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/4a97acfdea172e19db93b4e71417de009828eb96/wireframe/CCBBWireframe.png)   
+
+### Coding process & Bugs    
+
+Before starting any coding on this project I first inserted my stylesheet links provided on Bootstrap and Fontawesome websites. 
+Next created my files/folders and uploaded my branding logos that I made using the Canva app. 
+To begin I divided the body into three sections for the navbar, the body and the footer of each page. 
+For the Navbar I used and modified a template available on the bootstrap website, I then applied the small white branding to the 
+upper left corner. The picture did not fit initially and with some reading and trial and error I got it to a size I was happy with.
+I then added the information to the menu links in the navbar that take you from page to page within the website.     
+When coding the body I found the resource of the layout grid provided by Bootstrap to be a great asset and used one of their 
+default templates for a four and three column layout. I decided this would be best for my page as it allowed me to have the 
+main content centered, branding to the left and any other information to the right as on each page I wanted the information available 
+at first glance.    
+When setting up the grid initially I used the “flex” class alongside the “container” class. This proved to be an issue down the line 
+as I was having problems with a small amount of horizontal scroll. I rectified the problem after a google search and the help of the 
+Bootstrap flex page. Next I added in my footer, I modified the sticky footer provided in the Bootstrap examples page and applied CSS to 
+customise it to my needs. When I applied the copyright in the left of my footer, the text was not sitting where I would have liked 
+because I was using a template. The Bootstrap float page helped me resolve this issue. 
+Next I inserted the social media links in the bottom right. I sourced the icons from the FontAwesome website. 
+I positioned and styled them using Bootstrap classes and CSS.    
+When I had completed the footer I positioned the main brand logo using CSS parameters, keeping in mind on the homepage I wanted to 
+present more information below the logo. I was now ready to add my about and reviews section to my homepage. 
+I availed of information listed in the Bootstrap spacing page to help me position the content where I desired. 
+Under the logo I added a location map and a notation asking that any contact for orders be made via the contact page on the website. 
+To embed a google map of a specific location I found a particularly helpful youtube tutorial which I have linked below along with all 
+other reading materials and in the code along with all other resources.    
+Once I completed the homepage, I started on the menu. I copy and paste the code from the homepage and removed the about/reviews/map 
+as I intended to use the same core layout for all pages.   
+After the menu I began on the gallery page, copying and pasting the code from the menu page. I edited my links in the navbar and removed any
+content I did not need for the page. I used a Bootstrap carousel template for the gallery and some CSS to adjust the size and positioning.
+I carried out the same procedure for the FAQ page as the menu page as it was essentially just replacing the headings and text 
+with the relevant information. I applied some minor CSS to reposition the text and headings. When editing the FAQ I could not view all 
+of the content as some of the text was cut off and I couldn't scroll to view it. I addded the p-5 class to rectify this.    
+While I was trying to scroll down I also found some horizontal scrolling that showed my navbar didn't go all the way to the edge of the page, 
+I rectified this with CSS setting the width to 100%. Once I had done this the navbar logo no longer sat inside the navbar. 
+I found the solution to this on stackoverflow. This glitch also moved the brand logo on all pages to be overlapped by the navbar 
+and it moved the gallery and faq headings to be flush with the nav bar. This was rectified with CSS.    
+Once I had solved these issues I began working on my calendar page, I had not used a calendar on a website before, 
+so I opted to embed a Google calendar. I set up a dummy account and made the events only to find that when embedding 
+a Google calendar you can only have one color per calendar. To have a calendar fully colour coded like I had planned I would have to set up
+three different calendars. I had hoped to get back to do this but unfortunately I ran out of time. I also looked into building a more 
+responsive calendar and found some resources on using Google APIs but I have not yet learned the skills to execute this and hope to 
+add it in the future.    
+I set up my contact page using a form template from Bootstap. I edited this template to suit my needs, to contain a drop down menu
+and I also added and customised a "submit" button. The idea of this form would that it would send emails directly to the business gmail
+marked as important, which I found some infomation on but unfortunately at this time I am unable to set up such a function.
+Finally I went back to my navbar to insert a dropdown menu for tablet and mobile devices. I found a tutorial to be particularly helpful
+and I used the code from there for the button and the expand/collapse function. I modified the look of the menu to match the website using
+CSS. At this point I went back through my code making edits for small screen to tablet sized screens. I wanted my content to be displayed as
+a scrolling site on screens this size. I added the required column classes but the padding class I had applied previously meant the sections 
+had a large gap between them, which I did not like. To remove this I applied the px-5 and py-2 classes but this cut the upper content off 
+with the navbar. I decided to revert to the original padding, as it meant the content could be viewed in full on all screen sizes. I did not
+have enough time to fix this issue.    
