@@ -151,7 +151,9 @@ have enough time to fix this issue.
 * Navbar brand image fix: https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively
 * Embed Google calendar: https://www.youtube.com/watch?v=vksO63XQQ3w&ab_channel=WordPressTutorials-WPLearningLab
 * Bootstrap Form: https://getbootstrap.com/docs/4.0/components/forms/
-* Dropdown menu: https://www.youtube.com/watch?v=L0uNai3XyKQ&t=679s&ab_channel=CleverTechie   
+* Dropdown menu: https://www.youtube.com/watch?v=L0uNai3XyKQ&t=679s&ab_channel=CleverTechie  
+* Font Rajdghani: https://fonts.google.com/specimen/Rajdhani?query=raj&sidebar.open=true&selection.family=Rajdhani
+* Font Lora: https://fonts.google.com/specimen/Lora?selection.family=Lora&sidebar.open=true&query=Lora*/ 
 
 #### Further reading materials    
 * Google calendar API tutorial: https://www.youtube.com/watch?v=zrLf4KMs71E&ab_channel=TheLifeOfADev
@@ -177,8 +179,13 @@ have enough time to fix this issue.
 * https://fullcalendar.io/docs/google-calendar
 * https://getbootstrap.com/docs/4.5/content/tables/#examples
 * https://getbootstrap.com/docs/4.0/components/buttons/
-* https://getbootstrap.com/docs/3.4/css
+* https://getbootstrap.com/docs/3.4/css    
 
+### Technologies used    
+* *HTML*  I used HTML as it is the language used to structure and execute webcontent.
+* *CSS* I used CSS to style and customise the website.
+* *Bootstrap* ![Bootstrap](https://getbootstrap.com/) is a framework on which mobile first websites cant be built. I chose to use Bootstrap as I was unfamiliar with it and I saw the opportunity to gain experience and practise making a website with it. 
+* *JQuery* I used ![JQuery](https://jquery.com/) to facilitate the dropdown menu and fonts imported from Goolge Fonts. 
 
 
 

@@ -38,11 +38,7 @@ p {
  color: #ffffff;
 }
 
-/*https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively when editing the faq I could not view all the content from 
-the body so I began to edit the css to position the text. I noticed the nav bar didn't go to the edge of the page when scrolled to the right.
-I fixed this problem with css, comparing it to the footer, but once this issue was resolved the brand no longer sat in the navbar.
-The below code fixed the issue. It also moved the brand logo on all pages to be overlapped by the nav bar and it moved the gallery and faq headings
-to be flush with the nav bar, this was rectified with css*/
+/*https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively*/
 /*https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively*/
 .navbar .navbar-brand {
   padding-top: 5px;
@@ -156,5 +152,3 @@ to be flush with the nav bar, this was rectified with css*/
 .col-sm-1 {
  text-align: left;
 }
-
-/*tweaks made after initial push, style class*/
