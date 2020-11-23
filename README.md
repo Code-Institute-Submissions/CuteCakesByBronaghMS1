@@ -81,7 +81,8 @@ she has gathered enough repeat custom that within her schedule that she is alway
 
 ![wireframe](https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/4a97acfdea172e19db93b4e71417de009828eb96/wireframe/CCBBWireframe.png)   
 
-### Coding process & Bugs    
+### Coding process & Bugs   
+=========================== 
 
 Before starting any coding on this project I first inserted my stylesheet links provided on Bootstrap and Fontawesome websites. 
 Next created my files/folders and uploaded my branding logos that I made using the Canva app. 
@@ -134,7 +135,8 @@ had a large gap between them, which I did not like. To remove this I applied the
 with the navbar. I decided to revert to the original padding, as it meant the content could be viewed in full on all screen sizes. I did not
 have enough time to fix this issue.       
 
-### Credits   
+### Credits  
+============= 
 * Branding and Logo belong to Lorna Clarke
 * All cake images belong to Bronagh Fitzgerald sourced from: https://www.instagram.com/cutecakesbybronagh/
 * Bootstrap stylesheets: https://getbootstrap.com/docs/4.4/getting-started/introduction/
@@ -181,11 +183,12 @@ have enough time to fix this issue.
 * https://getbootstrap.com/docs/4.0/components/buttons/
 * https://getbootstrap.com/docs/3.4/css    
 
-### Technologies used    
+### Technologies used 
+=======================   
 * *HTML*  I used HTML as it is the language used to structure and execute webcontent.
 * *CSS* I used CSS to style and customise the website.
-* *Bootstrap* ![Bootstrap](https://getbootstrap.com/) is a framework on which mobile first websites cant be built. I chose to use Bootstrap as I was unfamiliar with it and I saw the opportunity to gain experience and practise making a website with it. 
-* *JQuery* I used ![JQuery](https://jquery.com/) to facilitate the dropdown menu and fonts imported from Goolge Fonts. 
+* *Bootstrap* [Bootstrap](https://getbootstrap.com/) is a framework on which mobile first websites cant be built. I chose to use Bootstrap as I was unfamiliar with it and I saw the opportunity to gain experience and practise making a website with it. 
+* *JQuery* I used [JQuery](https://jquery.com/) to facilitate the dropdown menu and fonts imported from Goolge Fonts. 
 
 
 
