@@ -1,4 +1,4 @@
-# CuteCakesByBronaghMS1
+# CuteCakesByBronaghMS1 (https://lornajane92.github.io/CuteCakesByBronaghMS1/)
 
 ## First Milestone project for Code Institute by Lorna Clarke. 
 
@@ -133,7 +133,8 @@ CSS. At this point I went back through my code making edits for small screen to 
 a scrolling site on screens this size. I added the required column classes but the padding class I had applied previously meant the sections 
 had a large gap between them, which I did not like. To remove this I applied the px-5 and py-2 classes but this cut the upper content off 
 with the navbar. I decided to revert to the original padding, as it meant the content could be viewed in full on all screen sizes. I did not
-have enough time to fix this issue.       
+have enough time to fix this issue. Had I given myself enough time to carryout this project thoroughly I would have also liked to include 
+more styling and a modal page to showcase seasonal offerings.        
 
 ### Credits  
 ============= 
@@ -187,8 +188,61 @@ have enough time to fix this issue.
 =======================   
 * *HTML*  I used HTML as it is the language used to structure and execute webcontent.
 * *CSS* I used CSS to style and customise the website.
+* *Google Fonts* I used Google Fonts to stylise my fonts, pulling from a large collection of fonts that can be accessed anywhere.
 * *Bootstrap* [Bootstrap](https://getbootstrap.com/) is a framework on which mobile first websites cant be built. I chose to use Bootstrap as I was unfamiliar with it and I saw the opportunity to gain experience and practise making a website with it. 
-* *JQuery* I used [JQuery](https://jquery.com/) to facilitate the dropdown menu and fonts imported from Goolge Fonts. 
+* *JQuery* I used [JQuery](https://jquery.com/) to facilitate the dropdown menu and fonts imported from Goolge Fonts.    
 
+### Deployment     
+===============     
+To deploy my project I carried out the following procedure:
+* Logged into GitHub and selected the lornajane92/CuteCakesByBronaghMS1 project.
+* From the next page I selected the Settings menu, located beneath the project title.
+* From the side bar I selected the Options tab and scrolled down to the GidHub Pages section.
+* In the Source area I set the Branch drop down menu from None to Main.
+* I then set the Folder menu to Root and clicked save.
+* The site then deployed my project at the following link (https://lornajane92.github.io/CuteCakesByBronaghMS1/)     
 
+#### Running this project locally     
+To run this project locally carry out the following procedure:      
+* Log into GitHub and locate the file lornajane92/CuteCakesByBronaghMS1 from my repositories.
+* Beside the green GitPod button, select the Code drop down menu.
+* From this menu copy the HTTPS link to my project to clone it.
+* On your computer open your local IDE/ Git Bash.
+* Change your working directory to wherever you would like to store the project. 
+* Paste the HTTPS link and press enter.
+
+### Testing
+=============   
+
+*Manual*    
+
+I carried out a manual test to ensure all links lead to their desired location, that the "active" class was applied to the 
+correct nav items, that dropdown menus worked and that all content was visable.   
+*Browser*     
+
+I opened the project in Chrome and Edge to verify that the fomat remained constant and that there were no cross browser
+glitches. I then carried out the same proceedure as I had done for the manual testing.    
+
+*Lighthouse*    
+
+I carried out testing via the Lighthouse application provided in Chrome, I did not get percentages as highly as I would have liked
+especially with regards to the "alt" descriptions, under the current circumstances I do not have the time to fill this in.     
+
+*HTML Validator(https://validator.w3.org)*     
+
+The validator found the following issues:
+* Two cases of an image missing an alt attribute.
+* Two cases of a stray <img> tag in my code.
+* The frameborder attribute within the <iframe> calander tag was marked "0", this was not necessary to include.
+  unfortunately, due to time restraints I did not have the time to rectify these errors.     
+
+*CSS Validator(https://jigsaw.w3.org/css-validator/)*      
+The validator found the following issues:
+* "Property text-decoration-skip-ink doesn't exist: none"
+* "Property overflow-anchor doesn't exist: none"
+* "Padding-top: -10px; negative values are not allowed"
+* Height too many values or values are not allowed 50%"
+* Width too many values or values are not recognized 90%"
+* Cross Device- I deployed the project and opened it on my mobile phone. I ensured the layout was consistent with the browser layout and I carried out a repeat
+  manual test on the device.
 
