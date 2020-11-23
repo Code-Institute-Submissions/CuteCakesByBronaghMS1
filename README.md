@@ -42,14 +42,14 @@ Although there are other independent cake makers in the area many of Bronagh’s
 she has gathered enough repeat custom that within her schedule that she is always busy.     
 
 
-* As a first time user, I would like to be able to easily navigate throughout the website so that I can find the information I require. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBHome.png)
-* As a first time user, I would like to learn about and see Bronagh’s work, so that I can make an informed purchase. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBGallery.png)
-* As a first time user, I would like to find Bronagh’s location, so that I know if I am within her service area/ can transport a cake easily to the venue. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBMap.png)
-* As a first time user, I would like to easily check availability, so that I know in advance of making a booking that she can facilitate it. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBCalendar.png)
-* As a first time user, I would like to contact Bronagh, so that I may book a consultation. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBContact.png)
+* As a first time user, I would like to be able to easily navigate throughout the website so that I can find the information I require. [home] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBHome.png)
+* As a first time user, I would like to learn about and see Bronagh’s work, so that I can make an informed purchase. [gallery] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBGallery.png)
+* As a first time user, I would like to find Bronagh’s location, so that I know if I am within her service area/ can transport a cake easily to the venue. [location] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBMap.png)
+* As a first time user, I would like to easily check availability, so that I know in advance of making a booking that she can facilitate it. [calendar] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBCalendar.png)
+* As a first time user, I would like to contact Bronagh, so that I may book a consultation. [contact] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBContact.png)
 * As a return user, I would like to be informed of Bronagh’s seasonal cake availability, so that I may make a repeat order before she sells out.
 * As a return user, I would like to access Bronagh’s social media, so that I can recommend her to my friends and show them a high quality picture
-  of the cake she made for me. (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBSocial1.png)
+  of the cake she made for me. [social] (https://github.com/lornajane92/CuteCakesByBronaghMS1/blob/60ac284b4d42b0ebc97995605a613ba345e9b56a/screenshots/CCBBSocial1.png)
 * As a return user, I would like to book well in advance for a big party in a few months time, so that I can be positive I have the cake I want for the event. 
 * As a return user, I would like clear and direct access to the contact form and calendar, as I am making a repeat order and already know what I want and for when. 
 * As a potential collaborator, I would like to contact Bronagh, so that we can collaborate on a project I am working on.     
