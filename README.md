@@ -132,4 +132,53 @@ CSS. At this point I went back through my code making edits for small screen to 
 a scrolling site on screens this size. I added the required column classes but the padding class I had applied previously meant the sections 
 had a large gap between them, which I did not like. To remove this I applied the px-5 and py-2 classes but this cut the upper content off 
 with the navbar. I decided to revert to the original padding, as it meant the content could be viewed in full on all screen sizes. I did not
-have enough time to fix this issue.    
+have enough time to fix this issue.       
+
+### Credits   
+* Branding and Logo belong to Lorna Clarke
+* All cake images belong to Bronagh Fitzgerald sourced from: https://www.instagram.com/cutecakesbybronagh/
+* Bootstrap stylesheets: https://getbootstrap.com/docs/4.4/getting-started/introduction/
+* Fontawesome CDN: https://www.bootstrapcdn.com/fontawesome/
+* Navbar template: https://getbootstrap.com/docs/4.5/components/navbar/
+* Navbrand sizing: https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively
+* Bootstrap grid system: https://getbootstrap.com/docs/4.0/layout/grid
+* Bootstrap flex: https://getbootstrap.com/docs/4.0/utilities/flex/
+* Bootstrap spacing: https://getbootstrap.com/docs/4.0/utilities/spacing/
+* Embedding Google map: https://www.youtube.com/watch?v=KIC0OK9nKXY&ab_channel=GeekTutorials
+* Bootstrap sticky footer: https://getbootstrap.com/docs/4.0/examples/sticky-footer/
+* FontAwesome Facebook: https://fontawesome.com/icons/facebook-f?style=brands
+* FontAwesome Instagram: https://fontawesome.com/icons/instagram?style=brands
+* Navbar brand image fix: https://stackoverflow.com/questions/33929604/fit-image-to-bootstrap-navbar-height-responsively
+* Embed Google calendar: https://www.youtube.com/watch?v=vksO63XQQ3w&ab_channel=WordPressTutorials-WPLearningLab
+* Bootstrap Form: https://getbootstrap.com/docs/4.0/components/forms/
+* Dropdown menu: https://www.youtube.com/watch?v=L0uNai3XyKQ&t=679s&ab_channel=CleverTechie   
+
+#### Further reading materials    
+* Google calendar API tutorial: https://www.youtube.com/watch?v=zrLf4KMs71E&ab_channel=TheLifeOfADev
+* Send email via form: https://www.youtube.com/watch?v=37tSrPc983s&ab_channel=DCodeMania
+* https://www.justinmind.com/blog/single-page-vs-multi-page-websites-design-battle/
+* https://getbootstrap.com/docs/4.0/utilities/display/
+* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+* https://getbootstrap.com/docs/4.3/components/dropdowns/
+* https://stackoverflow.com/questions/40267056/remove-spacing-between-cols
+* https://stackoverflow.com/questions/18738712/how-do-i-add-spacing-between-columns-in-bootstrap
+* https://www.w3schools.com/cssref/pr_grid-row-gap.asp
+* https://stackoverflow.com/questions/30423892/bootstrap-gap-between-columns-on-mobile-display/30424015
+* https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp
+* https://stackoverflow.com/questions/35532682/move-bootstrap-column-up
+* https://getbootstrap.com/docs/4.5/examples/
+* https://www.youtube.com/watch?v=oRLB3HKr9l4&ab_channel=CodingTheSmartWay.com
+* https://getbootstrap.com/docs/4.0/utilities/position/
+* https://getbootstrap.com/docs/4.5/layout/overview/
+* https://getbootstrap.com/docs/4.0/content/images/
+* https://getbootstrap.com/docs/4.2/utilities/text/
+* https://profromgo.com/blog/google-calendar-responsive/
+* https://stackoverflow.com/questions/30830733/how-to-change-google-calendar-embed-event-color/
+* https://fullcalendar.io/docs/google-calendar
+* https://getbootstrap.com/docs/4.5/content/tables/#examples
+* https://getbootstrap.com/docs/4.0/components/buttons/
+* https://getbootstrap.com/docs/3.4/css
+
+
+
+
