@@ -32,7 +32,7 @@ A visually pleasing and easy to use website that will showcase her work and enti
 * Links to social media so that customers may peruse her work and follow her on her various platforms.
 * Contact and location details so that customers may easily find Bronagh’s studio where she hosts consultations and is also a collection point.    
 
-*user story*    
+*User story*    
 
 Bronagh’s customer base consists primarily of people living in the Celbridge/Lucan/Leixlip/Maynooth areas and she also provides cake delivery for these areas. 
 Organising delivery or collection specification will not be available on the website as this is organised on a client to client basis depending 
