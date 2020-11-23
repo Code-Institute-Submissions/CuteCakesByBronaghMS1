@@ -13,17 +13,21 @@
 <body>
 
     <header>
+
 <!--Navbar-->
-<!--https://getbootstrap.com/docs/4.0/utilities/display/-->
-<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom border-bottom">
+
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom">
+<!--Navbar Logo-->
             <a class="navbar-brand" href="index.html">
                 <img class="nav-logo d-none d-lg-block" src="images/branding/cutecakeslogowht.png"></img>
             </a>
+<!--Dropdown Button-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
+<!--Dropdown Collapse/Expand-->
             <div class="collapse navbar-collapse" id="collapse_target">
+<!--Nav Menu-->
                 <ul class="navbar-nav navbar-collapse-xs navbar-expand-lg ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -46,19 +50,25 @@
                 </ul>
             </div>
         </nav>
+
     </header>
 
+<!--Main Body-->
+
     <section>
-<!--https://getbootstrap.com/docs/4.0/layout/grid/-->
         <div class="container">
+<!--Main Logo-->
             <div class="row">
-<!--https://getbootstrap.com/docs/4.0/utilities/flex/-->
                 <div class="col-xs col-lg-4 p-5">
                     <img src="images/branding/cutecakeslogo.png"></img>
                 </div>
                 <div class="col-md-4">
-                    <h1>Contact</h1>
-<!---https://getbootstrap.com/docs/4.0/components/forms/-->
+                    <h1 style="padding-top:90px;">Contact</h1>
+<!--Form-->
+<!--- for the form I used and edited a form template provided at https://getbootstrap.com/docs/4.0/components/forms/
+I found information on how to set up the form so that it would send an email to the business' gmail marked as important
+https://www.youtube.com/watch?v=37tSrPc983s&ab_channel=DCodeMania unfortunately at this time I am not able to set up such
+a function but I intend to add this funtion to the site in the future---->
                     <form>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Name:</label>
@@ -80,6 +90,7 @@
                             <label for="exampleFormControlTextarea1">Message:</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                         </div>
+<!--Button-->
                         <p class="button-p"><button type="button" class="button">Submit</button></p>
                     </form>
                 </div>
@@ -88,13 +99,15 @@
             </div>
         </div>
     </section>
-    <footer class="footer sticky-bottom border-top">
-<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
-<!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
-<!--Could not get text to go fully left-->
+
+<!--Footer-->
+
+    <footer class="footer sticky-bottom">
+<!--Copyright-->
         <div class="copy pull-left">
             <p class="copy">Copyright 2020 Lorna Clarke</p>
         </div>
+<!--Social Media-->
         <div class="pull-right">
             <ul>
                 <li class="social">
@@ -111,6 +124,7 @@
         </div>
 
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  

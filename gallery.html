@@ -14,16 +14,19 @@
 
     <header>
 <!--Navbar-->
-<!--https://getbootstrap.com/docs/4.0/utilities/display/-->
-<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom border-bottom">
+
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom">
+<!--Navbar Branding-->
             <a class="navbar-brand" href="index.html">
                 <img class="nav-logo d-none d-lg-block" src="images/branding/cutecakeslogowht.png"></img>
             </a>
+<!--Dropdown Button-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
+<!--Dropdown Collapse/Expand-->
             <div class="collapse navbar-collapse" id="collapse_target">
+<!--Navbar List-->
                 <ul class="navbar-nav navbar-collapse-xs navbar-expand-lg ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -48,18 +51,18 @@
         </nav>
     </header>
 
+<!--Main Body-->
+
     <section>
-<!--https://getbootstrap.com/docs/4.0/layout/grid/-->
         <div class="container">
             <div class="row">
-<!--https://getbootstrap.com/docs/4.0/utilities/flex/-->
+<!--Main Logo-->
                 <div class="col-xs col-lg-4 p-5">
                     <img src="images/branding/cutecakeslogo.png"></img>
                 </div>
                 <div class="col-xs col-lg-4 p-5">
-<!--https://magento.stackexchange.com/questions/14800/how-to-have-multiple-h1-tags-defined-in-css-for-a-theme-->
                     <h1 style="padding-top:10px;">Gallery</h1>
-<!--https://getbootstrap.com/docs/4.0/components/carousel/-->
+<!-- I set up the carousel using the template provided on the bootstrap website https://getbootstrap.com/docs/4.0/components/carousel/-->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -111,6 +114,7 @@
                         </a>
                     </div>
                 </div>
+<!--Gallery Text-->
                 <div class="col-xs col-lg-4 p-5">
                     <div class="gallery-text">
                         <div class="xs-row-none row-lg-3">
@@ -120,15 +124,19 @@
                             </a>
                             </p>
                         </div>
-<!--https://stackoverflow.com/questions/24922833/fontawesome-icons-not-showing-why-->
+<!--I encountered issues with the fontawesome content at this point, after some research I put the "fa" class into the class list within the <i>
+element and the problem was resolved I found the suggestion to ensure the "fa" class is included at this link
+https://stackoverflow.com/questions/24922833/fontawesome-icons-not-showing-why-->
                         <div class="xs-row-none row-lg-3">
                             <p class="gallery-p">Contact via the <a target="_blank" class="link" href="contact.html"><u>website</u></a> for a consultation!
                                 <a target="_blank" href="contact.html">
+<!--https://fontawesome.com/icons/laptop?style=solid-->
                                     <i class="fa fas fa-contact fa-laptop fa-lg"></i>
                                 </a>
                             </p>
                         </div>
                         <div class="xs-row-none">
+<!--https://fontawesome.com/icons/copyright?style=regular-->
                             <p class="gallery-p">All images are property and copyright of Bronagh Fitzgerald.<i class="far fa fa-copy fa-copyright fa-lg"></i></p>
                         </div>
                     </div>
@@ -136,10 +144,10 @@
             </div>
         </div>
     </section>
-    <footer class="footer sticky-bottom border-top">
-<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
-<!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
-<!--Could not get text to go fully left-->
+
+<!--Footer-->
+
+    <footer class="footer sticky-bottom">
         <div class="copy pull-left">
             <p class="copy">Copyright 2020 Lorna Clarke</p>
         </div>
@@ -159,6 +167,7 @@
         </div>
 
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  

@@ -13,17 +13,21 @@
 <body>
 
     <header>
+
 <!--Navbar-->
-<!--https://getbootstrap.com/docs/4.0/utilities/display/-->
-<!--https://getbootstrap.com/docs/4.5/components/navbar/-->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom border-bottom">
+
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-custom">
+<!--Navbar Brand-->
             <a class="navbar-brand" href="index.html">
                 <img class="nav-logo d-none d-lg-block" src="images/branding/cutecakeslogowht.png"></img>
             </a>
+<!--Dropdown Button-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
+<!--Dropdown Collapse/Expand-->
             <div class="collapse navbar-collapse" id="collapse_target">
+<!--Nav Menu-->
                 <ul class="navbar-nav navbar-collapse-xs navbar-expand-lg ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -48,18 +52,24 @@
         </nav>
     </header>
 
+<!--Main Body-->
+
     <section>
-<!--https://getbootstrap.com/docs/4.0/layout/grid/-->
         <div class="container">
             <div class="row">
-<!--https://getbootstrap.com/docs/4.0/utilities/flex/-->
+<!--Main Branding-->
                 <div class="col-xs col-lg-4 p-5">
                     <img src="images/branding/cutecakeslogo.png"></img>
                 </div>
                 <div class="col-xs col-lg-4">
-                    <h1 class="can-title">Calendar</h1>
-                    <div class="calendar">
-<!--https://www.youtube.com/watch?v=vksO63XQQ3w&ab_channel=WordPressTutorials-WPLearningLab-->
+                    <h1 style="padding-top:70px;" class="cal-title">Calendar</h1>
+                    <divclass="calendar">
+<!--Calendar-->
+<!-- I have not used a calendar on a website before, for the functionallity that I wanted I decided that the best way to do this would be to embed a google calendar 
+the instructions at the following link were particularly helpful https://www.youtube.com/watch?v=vksO63XQQ3w&ab_channel=WordPressTutorials-WPLearningLab
+The downside to using google calendar is that on an embeded calendar you cannot color code events unless you create different Calendars for each one. 
+Ideally if this website were to go live I would like to use the google calander api to make it fully customisable like in following tutorial
+https://www.youtube.com/watch?v=zrLf4KMs71E&ab_channel=TheLifeOfADev unfortunately at this time this feature was not feasable-->
                         <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23fad1d9&amp;ctz=Europe%2FDublin&amp;src=Y3V0ZWNha2VzYnliMjAyMEBnbWFpbC5jb20&amp;src=ZW4uaXJpc2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="650" height="500" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
@@ -68,13 +78,15 @@
             </div>
         </div>
     </section>
-    <footer class="footer sticky-bottom border-top">
-<!--https://getbootstrap.com/docs/4.0/utilities/borders/-->
-<!--https://stackoverflow.com/questions/24935105/bootstrap-footer-how-to-align-it-to-the-right-and-give-spacing-->
-<!--Could not get text to go fully left-->
+
+<!--Footer-->
+
+    <footer class="footer sticky-bottom">
+<!--Copyright-->
         <div class="copy pull-left">
             <p class="copy">Copyright 2020 Lorna Clarke</p>
         </div>
+<!--Social Media-->
         <div class="pull-right">
             <ul>
                 <li class="social">
@@ -91,6 +103,7 @@
         </div>
 
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
